@@ -1,7 +1,31 @@
 body {
 	font-family:arial;
+	background-color:#9BFEFF;
+	margin:0;
+	padding:0;
 }
 h1 {
-	font-size:60px;
+	font-size:40px;
 	text-align:center;
+	color:white;
 }
+a {
+	text-decoration:none;
+	color:lightgreen;
+}
+a:hover {
+	color:red;
+}
+li {
+list-style-type:none;
+padding-right:2em;
+text-align:center;
+float:left;
+font-weight:bold;
+font-size:17px;
+}
+header {
+	background-color:black;
+	height:150px;
+}
+
