@@ -1,6 +1,6 @@
 body {
 	font-family:arial;
-	background-color:#9BFEFF;
+	background-color:#66ff99;
 	margin:0;
 	padding:0;
 }
@@ -27,24 +27,4 @@ li {
 header {
 	background-color:black;
 	height:150px;
-}
-.blue {
-    color:blue;
-}
-.black {
-    color:black;
-}
-table, td, th {
-	border: 1px solid black;
-	border-collapse: collapse;
-}
-table {
-	table-layout:fixed;
-	width:30%;
-}
-tr:nth-child(odd) {
-	background-color:white
-}
-tr:nth-child(even) {
-	background-color:lightgray;
 }
