@@ -1,0 +1,54 @@
+body {
+	font-family:arial;/*typsnit på hela sidan*/
+	background-color:yellow;/*gul bakgrundsfärg*/
+	margin:0;/*inget mellanrum vid sidorna av headern*/
+}
+h1 {
+	font-size:40px;/*rubrikens storlek*/
+	text-align:center;/*centrerad rubrik*/
+	color:white;/*vit textfärg*/
+}
+a {
+	text-decoration:none;/*tar bort understräcken på länkarna*/
+	color:lightgreen;/*ljusgrön länkfärg*/
+}
+a:hover {
+	color:red;/*röd färg på länkar när musen är över*/
+}
+li {
+    list-style-type:none;/*inga punkter på menyn*/
+    padding-right:2em;/*mellanrumm mellan sidolänkarna*/
+    float:left;/*placeras horisontellt*/
+    font-weight:bold;/*tjockare text*/
+    font-size:17px;/*textstorlek*/
+}
+header {
+	background-color:black;/*svart bakgrundsfärg på headern*/
+	height:150px;/*storlek på headern*/
+}
+.blue {
+    color:blue;/*blå färg*/
+}
+.black {
+    color:black;/*svart färg*/
+}
+table, td, th {
+	border: 1px solid black;/*ram för tabellen*/
+	border-collapse: collapse;/*sträcken sätts ihop*/
+}
+table {
+	table-layout:fixed;/*bestämmd storlek på varje ruta*/
+	width:30%;/*bredden på rutorna*/
+}
+tr:nth-child(odd) {
+	background-color:white;/*varje udda rad på tabellen har vit bakgrundsfärg*/
+}
+tr:nth-child(even) {
+	background-color:lightgray;/*varje jämn rad på tabellen har grå bakgrundsfärg*/
+}
+.backgroundblue {
+	background-color:#9BFEFF;/*blå bakgrundsfärg*/
+}
+.backgroundgreen {
+	background-color:#66ff99;/*grön bakgrundfärg*/
+}
